@@ -1,0 +1,130 @@
+.menu {
+    background-color: #e4e4e4;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.menu__header-info  {
+    text-align: center;
+}
+.menu__body-img-wrap {
+    display: flex;
+    justify-content: center;
+    
+}
+.menu__body-img {
+    background-image: url(/assets/img/song/thanhxuan.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu__body-name {
+    text-align: center;
+}
+.menu__icon {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu__icon-wrap {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(#9796f0 0%, #fbc7d4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.range {
+    margin: 20px 0 0;
+    width: 100%;
+    --webkit-appearance: none;
+    appearance: none;
+}
+
+.range::-webkit-slider-runnable-track {
+    height: 6px;
+    background-color: black;
+}
+
+.range::-webkit-slider-thumb {
+    --webkit-appearance: none;
+    appearance: none;
+    height: 16px;
+    margin-top: -5px;
+    width: 16px;
+    border-radius: 50px;
+    background-image: linear-gradient(#9796f0 0%, #fbc7d4 100%);
+
+    
+}
+.playlist {
+  
+    /* margin: 0 8px; */
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.playlist__song-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 10px);
+    height: 62px;
+    background-color: #d5ccd0;
+    padding: auto;
+    margin-top: 8px;
+    border-radius: 4px;
+    
+
+}
+.playlist__song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    
+
+}
+
+
+.playlist__song-img {
+    background-image: url(/assets/img/song/thanhxuan.jpg);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.playlist__song-info {
+
+}
+
+.playlist__song-info-name {
+
+}
+
+.playlist__song-info-singer {
+
+}
+
+.playlist__option {
+    padding-right: 24px;
+}
+
+
+

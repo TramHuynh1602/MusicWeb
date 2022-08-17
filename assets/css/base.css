@@ -1,0 +1,11 @@
+:root {
+    --primary-color : crimson;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    margin: 16px 8px 8px;
+}
