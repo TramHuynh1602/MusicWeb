@@ -1,7 +1,11 @@
 .menu {
     background-color: #e4e4e4;
-    padding: 20px;
+    margin: 0 10px;
     border-radius: 4px;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 .menu__header-info  {
@@ -30,6 +34,11 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 35px;
+}
+
+.progress-bar {
+    padding-bottom: 16px;
+    margin: 0 16px;
 }
 
 .menu__icon-wrap {
@@ -73,7 +82,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .playlist__song-wrap {
