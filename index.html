@@ -18,7 +18,7 @@
                 </div>
                 <div class="menu__body">
                     <div class="menu__body-img-wrap">
-                       <div class="menu__body-img">
+                       <div class="menu__body-img"  style="background-image: url('./assets/img/song/thanhxuan.jpg')">
                             
                        </div>
                     </div> 
@@ -31,16 +31,17 @@
                     <i class="fa-solid fa-arrow-rotate-right"></i>
                     <i class="fa-solid fa-backward-step"></i>
                     <div class="menu__icon-wrap">
-                        <!-- <i class="fa-solid fa-circle-pause"></i> -->
-                        <i class="fa-solid fa-play "></i>
+                        <i class="fa-solid fa-circle-pause pausebtn"></i>
+                        <i class="fa-solid fa-play playbtn active"></i>
                     </div>
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-solid fa-shuffle"></i>
                 </div>
                 <div class="progress-bar">
-                    <input type="range" class="range">
+                    <input type="range" class="progress" max="100" min="0" step="1" value="0" >
 
                 </div>
+                <audio src="" id="audio"></audio>
             </div>
             <div class="playlist">
                 <!-- song -->

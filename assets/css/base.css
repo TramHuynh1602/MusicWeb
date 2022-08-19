@@ -9,3 +9,13 @@ html {
 .grid {
     margin: 16px 8px 8px;
 }
+
+.pausebtn
+, .playbtn {
+    display: none!important;
+}
+
+.pausebtn.active,
+.playbtn.active {
+    display: block !important;
+}

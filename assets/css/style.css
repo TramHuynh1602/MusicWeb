@@ -17,7 +17,6 @@
     
 }
 .menu__body-img {
-    background-image: url(/assets/img/song/thanhxuan.jpg);
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -51,19 +50,19 @@
     align-items: center;
 }
 
-.range {
+.progress {
     margin: 20px 0 0;
     width: 100%;
     --webkit-appearance: none;
     appearance: none;
 }
 
-.range::-webkit-slider-runnable-track {
+.progress::-webkit-slider-runnable-track {
     height: 6px;
     background-color: black;
 }
 
-.range::-webkit-slider-thumb {
+.progress::-webkit-slider-thumb {
     --webkit-appearance: none;
     appearance: none;
     height: 16px;
